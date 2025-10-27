@@ -1,0 +1,108 @@
+/* 1. IMPORT AESTHETIC GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* New: Set Poppins as the primary font for text */
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9FAFB; 
+}
+
+/* 2. APPLY MONTSERRAT TO ALL HEADINGS */
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    /* Use a heavier weight for impact */
+    font-weight: 700;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #9ea9ba; 
+
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFFFFF; 
+    
+}
+.card{
+    height: 250px;
+    width: 400px;
+    background-color: #1F2937; 
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    margin-right: 40px;
+    color: yellow;
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #F3F4F6; 
+    /* Adding some padding for the text in page 3 to breathe */
+    padding: 50px;
+    box-sizing: border-box; /* Ensures padding is inside the element's height/width */
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #F3F4F6; 
+}
+.features{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #D1FAE5; 
+    border-radius: 25px;
+    /* Adding some internal padding */
+    padding: 15px; 
+    box-sizing: border-box;
+}
+#student {
+    background-color: #FEF3C7;
+    height: 80px; 
+    margin-top: 80px;
+}
+.review{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #FFFFFF; 
+    border-radius: 90px ;
+    margin: auto;
+    /* Adding some internal padding */
+    padding: 20px;
+    box-sizing: border-box;
+    /* Ensuring text alignment is left within the review */
+    text-align: left; 
+}
+nav{
+    height: 15%;
+    width: 100%;
+    background-color: transparent;
+}
+
+nav p{
+    color: rgb(103, 103, 240);
+    margin: auto;
+}
+ 
+#circle{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 150px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
