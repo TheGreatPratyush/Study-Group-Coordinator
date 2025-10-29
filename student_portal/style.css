@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    height: 10%;
+    width: 100%;
+}
+#page1,#page2{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    background-color: rgb(226, 226, 234);
+}
+#main{
+    height: 100%;
+    width: 90%;
+    margin: 20px;
+    border-radius: 80px;
+    background-color: blue;
+    margin-left: 80px;
+    border: 1px solid rgb(241, 173, 173);   
+}
+
+#navigation{
+    height: 100%;
+    width: 100%;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+    background-color: rgb(172, 183, 25);
+    border: 1px solid rgb(241, 173, 173);   
+}
+nav p{
+    margin: auto;
+}
+.card{
+    margin: auto;
+    
+    height: 200px;
+    width: 400px;}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border:1px solid green 
+}
+th, td , tr{
+  padding: 10px;
+  text-align: left;
+  border: 1px solid green ;
+  font-size: x-large;
+}
